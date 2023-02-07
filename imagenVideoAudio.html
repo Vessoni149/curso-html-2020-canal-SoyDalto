@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Mi primera imagen html</title>
+</head>
+<body>
+    <h1>Mi primera imagen html</h1>
+    <p>
+        aca va la <b>imagen</b>:  <!--la b es negrita-->
+    </p>
+
+
+    <!--la etiqueta img tiene un atributo llamado source, y el valor es la tura donde esta el archivo.-->
+    <img src="https://avatars.githubusercontent.com/u/47662295?s=400&v=4"> <br/>   <!--esta imagen esta alojada en un ervidor externo-->
+    <img src="rocio.jpg" height="400"> <br/>      <!--esta img esta en la misma carpeta que el html-->
+    <img src="abc/laprida.jpg" width="400"> <br/>       <!--esta img esta dentro de una carpeta "abc" pero dentro de la carpeta conde esta el html-->
+    <!--siempre que llamemos a una imagen local, la misma tiene que estar dentro de la carpeta del html -->
+    <img src="rocio.jpg" width="100" height="200"> <br/> <!--width y height son atributos para aumentar el alto y ancho de pixeles, 
+        se recomienda usar uno solo, si se usan ambos deben ser de la misma medida para que queden proporcionales. 
+        Ademas el tamaño se puede modificar con CSS, y si lo modificamos aca no vamos a poder hacerlo en CSS-->
+
+
+<video src="GOL Pity.mp4" controls=""> <!--el atributo controls es para que aparezcan las opciones de control del video,
+     pero no se le asigna ningun valor xq el navegador los asigna por defecto. Se puede poner sin =""-->
+
+</video>           <!--esta etiqueta si se cierra a diferencia de img.
+en la src tiene que haber un archivo con formato de video--> 
+
+
+<audio src="riky.ogg" controls></audio> <!--se aplican las mismas reglas q para video-->
+   
+
+<div>                   <!--div separa y agrupa contenido, se usa mas en CSS, no tanto en HTML, pero el funcionamiento es igual-->
+    <h4>Nombre del producto</h4>
+    <p>pan</p>
+</div>
+
+</body>
+</html>
